@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<genmodel:GenModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:genmodel="http://www.eclipse.org/emf/2002/GenModel"
+    modelDirectory="/CurveHTLM/src-gen" creationIcons="false" editDirectory="/CurveHTLM.edit/src-gen"
+    editorDirectory="/CurveHTLM.editor/src-gen" modelPluginID="CurveHTLM" modelName="CurveHTLM"
+    rootExtendsClass="org.eclipse.emf.ecore.impl.MinimalEObjectImpl$Container" codeFormatting="true"
+    importerID="org.eclipse.emf.importer.ecore" complianceLevel="5.0" copyrightFields="false"
+    operationReflection="true" importOrganizing="true">
+  <foreignModel>curveHTLM.ecore</foreignModel>
+  <testsDirectory xsi:nil="true"/>
+  <genPackages prefix="CurveHTLM" disposableProviderFactory="true" ecorePackage="curveHTLM.ecore#/">
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="curveHTLM.ecore#//type_graph">
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/bar"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/line"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/radar"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/doughnut"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/polarArea"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/pie"/>
+    </genEnums>
+    <genEnums typeSafeEnumCompatible="false" ecoreEnum="curveHTLM.ecore#//list_color">
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/red"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/orange"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/yellow"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/green"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/blue"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/purple"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/grey"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/pink"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/lime"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/teal"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/cyan"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/indigo"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/brown"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/amber"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/black"/>
+      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//list_color/white"/>
+    </genEnums>
+    <genClasses ecoreClass="curveHTLM.ecore#//html_generator_program">
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference curveHTLM.ecore#//html_generator_program/statement"/>
+    </genClasses>
+    <genClasses ecoreClass="curveHTLM.ecore#//statement"/>
+    <genClasses ecoreClass="curveHTLM.ecore#//graph">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute curveHTLM.ecore#//graph/style"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference curveHTLM.ecore#//graph/curve"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute curveHTLM.ecore#//graph/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute curveHTLM.ecore#//graph/x_axis"/>
+    </genClasses>
+    <genClasses ecoreClass="curveHTLM.ecore#//curve">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute curveHTLM.ecore#//curve/label_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute curveHTLM.ecore#//curve/legend"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute curveHTLM.ecore#//curve/color"/>
+    </genClasses>
+    <genClasses ecoreClass="curveHTLM.ecore#//csv_loader">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute curveHTLM.ecore#//csv_loader/file_name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute curveHTLM.ecore#//csv_loader/separator"/>
+    </genClasses>
+  </genPackages>
+</genmodel:GenModel>

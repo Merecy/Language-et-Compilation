@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="curveHTLM" nsURI="http://www.example.org/curveHTLM" nsPrefix="curveHTLM">
+  <eClassifiers xsi:type="ecore:EClass" name="html_generator_program">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="statement" upperBound="-1"
+        eType="#//statement" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="statement" abstract="true"/>
+  <eClassifiers xsi:type="ecore:EClass" name="graph" eSuperTypes="#//statement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="style" eType="#//type_graph"
+        defaultValueLiteral="bar"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="curve" upperBound="-1"
+        eType="#//curve" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="x_axis" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="type_graph">
+    <eLiterals name="bar"/>
+    <eLiterals name="line" value="1"/>
+    <eLiterals name="radar" value="2"/>
+    <eLiterals name="doughnut" value="3"/>
+    <eLiterals name="polarArea" value="4"/>
+    <eLiterals name="pie" value="5"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="curve">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="label_name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="legend" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="color" eType="#//list_color"
+        defaultValueLiteral="pink"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="csv_loader" eSuperTypes="#//statement">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="file_name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="separator" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"
+        defaultValueLiteral=";"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EEnum" name="list_color">
+    <eLiterals name="red"/>
+    <eLiterals name="orange" value="1"/>
+    <eLiterals name="yellow" value="2"/>
+    <eLiterals name="green" value="3"/>
+    <eLiterals name="blue" value="4"/>
+    <eLiterals name="purple" value="5"/>
+    <eLiterals name="grey" value="6"/>
+    <eLiterals name="pink" value="7"/>
+    <eLiterals name="lime" value="8"/>
+    <eLiterals name="teal" value="9"/>
+    <eLiterals name="cyan" value="10"/>
+    <eLiterals name="indigo" value="11"/>
+    <eLiterals name="brown" value="12"/>
+    <eLiterals name="amber" value="13"/>
+    <eLiterals name="black" value="14"/>
+    <eLiterals name="white" value="15"/>
+  </eClassifiers>
+</ecore:EPackage>
