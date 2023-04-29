@@ -1,0 +1,8 @@
+html_generator_program{
+	open("C:/Users/emeri/Desktop/IA/langage et compilation/projet/cars.csv");
+	create chart{
+		style=bar,
+		Xaxis="Car",
+		curve(label_name="Horsepower", legend="Horsepower", color=red)
+	};
+}
