@@ -14,7 +14,6 @@
       <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/line"/>
       <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/radar"/>
       <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/doughnut"/>
-      <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/polarArea"/>
       <genEnumLiterals ecoreEnumLiteral="curveHTLM.ecore#//type_graph/pie"/>
     </genEnums>
     <genEnums typeSafeEnumCompatible="false" ecoreEnum="curveHTLM.ecore#//list_color">

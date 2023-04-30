@@ -5,7 +5,7 @@
     <semanticResources>curveHTLM.genmodel</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_MdUVwM1mEe2y1eaZS7gIAQ">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
-      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_l_ZaMOUSEe2d-MXLPVLE2Q" name="curveHTLM" repPath="#_l_N0AOUSEe2d-MXLPVLE2Q" changeId="b3f568a2-ffce-4001-a9bf-c680ee58985a">
+      <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_l_ZaMOUSEe2d-MXLPVLE2Q" name="curveHTLM" repPath="#_l_N0AOUSEe2d-MXLPVLE2Q" changeId="98c3e1e8-9852-4f55-b8c3-fd0b963d0c8d">
         <description xmi:type="description_1:DiagramDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']"/>
         <target xmi:type="ecore:EPackage" href="curveHTLM.ecore#/"/>
       </ownedRepresentationDescriptors>
@@ -71,10 +71,6 @@
             <children xmi:type="notation:Node" xmi:id="_rKSWAOWnEe2d-MXLPVLE2Q" type="3010" element="_rKNdgOWnEe2d-MXLPVLE2Q">
               <styles xmi:type="notation:FontStyle" xmi:id="_rKSWAeWnEe2d-MXLPVLE2Q" fontName="Segoe UI" fontHeight="8"/>
               <layoutConstraint xmi:type="notation:Location" xmi:id="_rKSWAuWnEe2d-MXLPVLE2Q"/>
-            </children>
-            <children xmi:type="notation:Node" xmi:id="_tOjT0OWnEe2d-MXLPVLE2Q" type="3010" element="_tOebUOWnEe2d-MXLPVLE2Q">
-              <styles xmi:type="notation:FontStyle" xmi:id="_tOjT0eWnEe2d-MXLPVLE2Q" fontName="Segoe UI" fontHeight="8"/>
-              <layoutConstraint xmi:type="notation:Location" xmi:id="_tOjT0uWnEe2d-MXLPVLE2Q"/>
             </children>
             <children xmi:type="notation:Node" xmi:id="_uFZcQOWnEe2d-MXLPVLE2Q" type="3010" element="_uFT8sOWnEe2d-MXLPVLE2Q">
               <styles xmi:type="notation:FontStyle" xmi:id="_uFZcQeWnEe2d-MXLPVLE2Q" fontName="Segoe UI" fontHeight="8"/>
@@ -367,14 +363,6 @@
         <target xmi:type="ecore:EEnumLiteral" href="curveHTLM.ecore#//type_graph/doughnut"/>
         <semanticElements xmi:type="ecore:EEnumLiteral" href="curveHTLM.ecore#//type_graph/doughnut"/>
         <ownedStyle xmi:type="diagram:BundledImage" uid="_rKNdgeWnEe2d-MXLPVLE2Q" labelAlignment="LEFT">
-          <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
-        </ownedStyle>
-        <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>
-      </ownedElements>
-      <ownedElements xmi:type="diagram:DNodeListElement" uid="_tOebUOWnEe2d-MXLPVLE2Q" name="polarArea" tooltipText="">
-        <target xmi:type="ecore:EEnumLiteral" href="curveHTLM.ecore#//type_graph/polarArea"/>
-        <semanticElements xmi:type="ecore:EEnumLiteral" href="curveHTLM.ecore#//type_graph/polarArea"/>
-        <ownedStyle xmi:type="diagram:BundledImage" uid="_tOfCYOWnEe2d-MXLPVLE2Q" labelAlignment="LEFT">
           <description xmi:type="style:BundledImageDescription" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']/@style"/>
         </ownedStyle>
         <actualMapping xmi:type="description_1:NodeMapping" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']/@ownedRepresentations[name='Entities']/@defaultLayer/@containerMappings[name='EC%20EEnum']/@subNodeMappings[name='EC%20EEnumLiteral']"/>

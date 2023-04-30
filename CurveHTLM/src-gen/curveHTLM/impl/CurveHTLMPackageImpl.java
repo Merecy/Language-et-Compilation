@@ -421,7 +421,6 @@ public class CurveHTLMPackageImpl extends EPackageImpl implements CurveHTLMPacka
 		addEEnumLiteral(type_graphEEnum, type_graph.LINE);
 		addEEnumLiteral(type_graphEEnum, type_graph.RADAR);
 		addEEnumLiteral(type_graphEEnum, type_graph.DOUGHNUT);
-		addEEnumLiteral(type_graphEEnum, type_graph.POLAR_AREA);
 		addEEnumLiteral(type_graphEEnum, type_graph.PIE);
 
 		initEEnum(list_colorEEnum, list_color.class, "list_color");

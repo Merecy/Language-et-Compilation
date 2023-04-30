@@ -56,15 +56,6 @@ public enum type_graph implements Enumerator {
 	 */
 	DOUGHNUT(3, "doughnut", "doughnut"),
 	/**
-	 * The '<em><b>Polar Area</b></em>' literal object.
-	 * <!-- begin-user-doc -->
-	* <!-- end-user-doc -->
-	 * @see #POLAR_AREA_VALUE
-	 * @generated
-	 * @ordered
-	 */
-	POLAR_AREA(4, "polarArea", "polarArea"),
-	/**
 	 * The '<em><b>Pie</b></em>' literal object.
 	 * <!-- begin-user-doc -->
 	* <!-- end-user-doc -->
@@ -72,7 +63,7 @@ public enum type_graph implements Enumerator {
 	 * @generated
 	 * @ordered
 	 */
-	PIE(5, "pie", "pie");
+	PIE(4, "pie", "pie");
 
 	/**
 	 * The '<em><b>Bar</b></em>' literal value.
@@ -119,17 +110,6 @@ public enum type_graph implements Enumerator {
 	public static final int DOUGHNUT_VALUE = 3;
 
 	/**
-	 * The '<em><b>Polar Area</b></em>' literal value.
-	 * <!-- begin-user-doc -->
-	 * <!-- end-user-doc -->
-	 * @see #POLAR_AREA
-	 * @model name="polarArea"
-	 * @generated
-	 * @ordered
-	 */
-	public static final int POLAR_AREA_VALUE = 4;
-
-	/**
 	 * The '<em><b>Pie</b></em>' literal value.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -138,7 +118,7 @@ public enum type_graph implements Enumerator {
 	 * @generated
 	 * @ordered
 	 */
-	public static final int PIE_VALUE = 5;
+	public static final int PIE_VALUE = 4;
 
 	/**
 	 * An array of all the '<em><b>type graph</b></em>' enumerators.
@@ -146,7 +126,7 @@ public enum type_graph implements Enumerator {
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
-	private static final type_graph[] VALUES_ARRAY = new type_graph[] { BAR, LINE, RADAR, DOUGHNUT, POLAR_AREA, PIE, };
+	private static final type_graph[] VALUES_ARRAY = new type_graph[] { BAR, LINE, RADAR, DOUGHNUT, PIE, };
 
 	/**
 	 * A public read-only list of all the '<em><b>type graph</b></em>' enumerators.
@@ -210,8 +190,6 @@ public enum type_graph implements Enumerator {
 			return RADAR;
 		case DOUGHNUT_VALUE:
 			return DOUGHNUT;
-		case POLAR_AREA_VALUE:
-			return POLAR_AREA;
 		case PIE_VALUE:
 			return PIE;
 		}

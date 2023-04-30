@@ -19,8 +19,7 @@
     <eLiterals name="line" value="1"/>
     <eLiterals name="radar" value="2"/>
     <eLiterals name="doughnut" value="3"/>
-    <eLiterals name="polarArea" value="4"/>
-    <eLiterals name="pie" value="5"/>
+    <eLiterals name="pie" value="4"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="curve">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="label_name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
