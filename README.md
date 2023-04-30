@@ -80,17 +80,17 @@ On veut représenter avec un graphique en barre, la puissance moteur de chaque v
 
 html\_generator\_program{
 
-open("\<path\>/cars.csv");
+  open("\<path\>/cars.csv");
 
-create chart{
+    create chart{
 
-style=bar,
+      style=bar,
 
-Xaxis="Car",
+      Xaxis="Car",
 
-curve(label\_name="Horsepower", legend="Horsepower")
+      curve(label\_name="Horsepower", legend="Horsepower")
 
-};
+    };
 
 }
 
@@ -100,19 +100,19 @@ On veut représenter cette fois ci, une comparaison entre la population et le no
 
 html\_generator\_program{
 
-open("\<path\>/factbook.csv",sep=";");
+  open("\<path\>/factbook.csv",sep=";");
 
-create chart{
+    create chart{
 
-style=line,
+      style=line,
 
-Xaxis="Country",
+      Xaxis="Country",
 
-curve(label\_name="Population", legend="Population", color=pink),
+      curve(label\_name="Population", legend="Population", color=pink),
 
-curve(label\_name="Telephones - mobile cellular", legend="Cellular", color=blue)
+      curve(label\_name="Telephones - mobile cellular", legend="Cellular", color=blue)
 
-};
+    };
 
 }
 
