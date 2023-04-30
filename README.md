@@ -77,7 +77,7 @@ Le compilateur est également prévu pour émettre une erreur custom, si le fich
 Exemple 1)
 
 On veut représenter avec un graphique en barre, la puissance moteur de chaque voiture.
-
+```
 html\_generator\_program{
 
   open("\<path\>/cars.csv");
@@ -93,11 +93,11 @@ html\_generator\_program{
     };
 
 }
-
+```
 Exemple 2)
 
 On veut représenter cette fois ci, une comparaison entre la population et le nombre de téléphones portables de chaque pays.
-
+```
 html\_generator\_program{
 
   open("\<path\>/factbook.csv",sep=";");
@@ -115,7 +115,7 @@ html\_generator\_program{
     };
 
 }
-
+```
 ## Son usage principal et l'ensemble de ses fonctionnalités :
 
 Mon langage permet de créer de manière simple un graphique sur un fichier HTML.
