@@ -4,7 +4,7 @@ ChartIt
 
 Lien vers le projet : [https://github.com/Merecy/Language-et-Compilation](https://github.com/Merecy/Language-et-Compilation)
 
-Modèle de domaine sous forme de diagramme de classes :
+## Modèle de domaine sous forme de diagramme de classes :
 
 ![](RackMultipart20230430-1-4jf261_html_bf8f12de61d984f8.jpg)
 
@@ -48,7 +48,7 @@ La syntaxe concrète sous forme de Backus-Naur (BNF) :
 - \<color\> représente la couleur de la courbe.
 - \<string\_literal\> est une chaîne de caractère entre guillemet
 
-Description du langage et son implémentation :
+## Description du langage et son implémentation :
 
 Mon langage (.myhtml) permet de générer du code HTML qui permet d'afficher des graphiques sur une page web, à partir d'un fichier CSV.
 
@@ -60,7 +60,7 @@ L'instruction " **create**" permet de créer un graphique, à laquelle on peut d
 
 Chaque courbe est définie par l'instruction " **curve**" qui permet de créer une courbe sur un type de données en particulier, mais on peut également mettre une légende, ou changer la couleur de cette dernière.
 
-Description simple du compilateur afin d'obtenir la page html:
+## Description simple du compilateur afin d'obtenir la page html:
 
 Notre compilateur va dans un premier temps récupérer le chemin vers le CSV, ainsi que son séparateur si spécifié. Il va également récupérer les labels des colonnes qu'il va devoir utiliser pour l'axe des abscisses et des courbes.
 
@@ -72,7 +72,7 @@ Il faut également noter que dans les données dans le fichier généré seront 
 
 Le compilateur est également prévu pour émettre une erreur custom, si le fichier csv ou les arguments de colonne de csv n'existe pas (par faute de typo par exemple).
 
-**Exemple de scénario :**
+## **Exemple de scénario :**
 
 Exemple 1)
 
@@ -116,7 +116,7 @@ curve(label\_name="Telephones - mobile cellular", legend="Cellular", color=blue)
 
 }
 
-Son usage principal et l'ensemble de ses fonctionnalités :
+## Son usage principal et l'ensemble de ses fonctionnalités :
 
 Mon langage permet de créer de manière simple un graphique sur un fichier HTML.
 
